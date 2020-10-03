@@ -691,5 +691,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Personaje
       objectReference: {fileID: 0}
+    - target: {fileID: 8156181132914511992, guid: dddedfd7c57dfce408fc2f04aa8692f2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dddedfd7c57dfce408fc2f04aa8692f2, type: 3}
