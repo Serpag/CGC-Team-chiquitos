@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: ApplicationVariables
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Crystal1","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Crystal1","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Crystal2","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Crystal3","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Crystal4","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Crystal5","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd6e8f6c-80cd-435c-ad57-469be37e14a4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Triangle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Triangle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI/1 - Apertura.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GUI/1 - Apertura.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/Generated/Variables/Resources/ApplicationVariables.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/Generated/Variables/Resources/ApplicationVariables.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Flow/Generated/UnitOptions.db" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Flow/Generated/UnitOptions.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/Generated/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/Generated/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Splash.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Splash.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerControl.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerControl.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iYu2yCbNSDaA2gMsnEkrQqYADN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1602096656985</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602096656985</updated>
+      <workItem from="1602097517835" duration="1000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
