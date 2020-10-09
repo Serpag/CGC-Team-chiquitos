@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Floor
+  - Enemy
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -14,12 +16,12 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Friendly fire
+  - Enemy Fire
+  - Enemies
+  - Pickups
+  - Walls
   - 
   - 
   - 
