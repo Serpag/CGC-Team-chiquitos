@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2647765687858522374
+--- !u!1 &5977790053609294297
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2647765687858522369}
-  - component: {fileID: 2647765687858522368}
-  - component: {fileID: 2647765687858522375}
-  - component: {fileID: 2647765687858522371}
-  - component: {fileID: 2647765687858522370}
+  - component: {fileID: 5977790053609294298}
+  - component: {fileID: 5977790053609294299}
+  - component: {fileID: 5977790053609294296}
+  - component: {fileID: 5977790053609294300}
+  - component: {fileID: 5977790053609294301}
   m_Layer: 11
-  m_Name: Rana
+  m_Name: Ranita
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2647765687858522369
+--- !u!4 &5977790053609294298
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2647765687858522374}
+  m_GameObject: {fileID: 5977790053609294297}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.33, y: 1.01, z: -1.0456952}
+  m_LocalPosition: {x: 14.47, y: 1.37, z: -6.960532}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2647765687858522368
+--- !u!212 &5977790053609294299
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2647765687858522374}
+  m_GameObject: {fileID: 5977790053609294297}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: cf7887f44e59e493aaee0167006edc86, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 24f46ff2c4e2249689055f19076bb16e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -85,20 +85,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2647765687858522375
+--- !u!61 &5977790053609294296
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2647765687858522374}
+  m_GameObject: {fileID: 5977790053609294297}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.055948734, y: -0.30009103}
+  m_Offset: {x: -0.046147346, y: -0.13115537}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -109,30 +109,30 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.213624, y: 1.1322436}
+  m_Size: {x: 0.9077053, y: 0.87370205}
   m_EdgeRadius: 0
---- !u!114 &2647765687858522371
+--- !u!114 &5977790053609294300
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2647765687858522374}
+  m_GameObject: {fileID: 5977790053609294297}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"wanderSpeed","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"turn","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"turnTime","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"turnTimeout","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"shootTime","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"shootTimeout","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"enemyBullet","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
---- !u!114 &2647765687858522370
+--- !u!114 &5977790053609294301
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2647765687858522374}
+  m_GameObject: {fileID: 5977790053609294297}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
@@ -141,4 +141,4 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: d5293cd305c6e4dbe8a41c3421467624, type: 2}
+    - {fileID: 11400000, guid: 84e6ea6e2bcef4374b65ec6292097bcc, type: 2}
