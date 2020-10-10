@@ -326,7 +326,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.14117648, g: 0.14117648, b: 0.15686275, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -968,7 +968,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: c6c17eb58ef43407d805c3156c0bfada, type: 3}
     - target: {fileID: 5547321390674223112, guid: dd374aa542ade4374b54763ad1bb0dd4, type: 3}
       propertyPath: nextScene
-      value: Title
+      value: Story
       objectReference: {fileID: 0}
     - target: {fileID: 5547321390674223112, guid: dd374aa542ade4374b54763ad1bb0dd4, type: 3}
       propertyPath: timerAuto
