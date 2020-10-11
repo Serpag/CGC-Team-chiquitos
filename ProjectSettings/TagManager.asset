@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Bullet
   - Crystal
+  - Killzone
+  - Loader
   layers:
   - Default
   - TransparentFX

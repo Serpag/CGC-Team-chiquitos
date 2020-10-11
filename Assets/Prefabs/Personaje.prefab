@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 6945823568215060680}
   - component: {fileID: 1865951941}
   - component: {fileID: 142638511177995398}
-  - component: {fileID: 3438538750286484510}
   m_Layer: 8
   m_Name: Personaje
   m_TagString: Player
@@ -139,7 +138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Jump amount","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"PlayerSpeed","value":{"$content":40.0,"$type":"System.Single"},"$version":"A"},{"name":"PlayerHealth","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"projectile","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Jump amount","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"PlayerSpeed","value":{"$content":40.0,"$type":"System.Single"},"$version":"A"},{"name":"projectile","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"hasTheCrystal","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2322319935929718090, guid: f12e4bd1f09ea4a37af0e1c3abfaded5, type: 3}
 --- !u!114 &6945823568215060680
@@ -190,19 +189,3 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: f6ca07d1c3ecc4cfaae2889d5f3c08b8, type: 2}
---- !u!114 &3438538750286484510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6886606170337171055}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 8a7599c9e27b049ddaad8be77b2cebde, type: 2}
