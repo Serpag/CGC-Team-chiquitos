@@ -200,7 +200,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 38129677}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.34, y: 0, z: 0}
+  m_LocalPosition: {x: -7, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -259,8 +259,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -265}
-  m_SizeDelta: {x: 591.0688, y: 58.02191}
+  m_AnchoredPosition: {x: 0, y: 2.3}
+  m_SizeDelta: {x: 747.7109, y: 672.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &579651628
 MonoBehaviour:
@@ -282,7 +282,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Stranded in space...
+  m_text: 'I found myself stranded in space
+
+
+    it was the first flight for the
+    mars colonization program
+
+
+    now they want me to fix some kind of star portal
+
+
+    a
+    mirror'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 811e3f02dce9e4e05aa72eb96e1a307f, type: 2}
   m_sharedMaterial: {fileID: -4171349941933154307, guid: 811e3f02dce9e4e05aa72eb96e1a307f, type: 2}
@@ -316,8 +327,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -545,7 +556,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1014415069}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.45, y: 0, z: 0}
+  m_LocalPosition: {x: 7, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
