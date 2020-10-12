@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 1865951941}
   - component: {fileID: 142638511177995398}
   - component: {fileID: 7695023830582588707}
+  - component: {fileID: 6112671939640775534}
   m_Layer: 8
   m_Name: Personaje
   m_TagString: Player
@@ -139,9 +140,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Jump amount","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"PlayerSpeed","value":{"$content":40.0,"$type":"System.Single"},"$version":"A"},{"name":"projectile","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"hasTheCrystal","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"crystalPower","value":{"$content":"none","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Jump amount","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"PlayerSpeed","value":{"$content":40.0,"$type":"System.Single"},"$version":"A"},{"name":"projectile","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"hasTheCrystal","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"crystalPower","value":{"$content":"none","$type":"System.String"},"$version":"A"},{"name":"timeText","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2322319935929718090, guid: f12e4bd1f09ea4a37af0e1c3abfaded5, type: 3}
+    - {fileID: 0}
 --- !u!114 &6945823568215060680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,7 +151,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6886606170337171055}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
   m_Name: 
@@ -197,7 +199,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6886606170337171055}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1999370065, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
   m_Name: 
@@ -206,3 +208,19 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 599631b0955c647bca00fbec11fea427, type: 2}
+--- !u!114 &6112671939640775534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6886606170337171055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 6b615c8905775444eb14f59c1c1e8d5f, type: 2}
