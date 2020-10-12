@@ -124,8 +124,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"shootTime","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"shootTimeout","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"enemyBullet","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"collection":{"$content":[{"name":"shootTime","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"shootTimeout","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"enemyBullet","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 4952493520543604123, guid: 90b996b339a4b4c58865518bea6e97cb, type: 3}
 --- !u!114 &5977790053609294301
 MonoBehaviour:
   m_ObjectHideFlags: 0
