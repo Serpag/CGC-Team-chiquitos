@@ -1267,7 +1267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelLoader: {fileID: 1799105861}
-  nextLevel: Mirror
+  nextLevel: Inverted
 --- !u!4 &1679966636
 Transform:
   m_ObjectHideFlags: 0

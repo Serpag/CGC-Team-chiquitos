@@ -269,7 +269,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &208372467
 AudioListener:
   m_ObjectHideFlags: 0
@@ -387,7 +387,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &227348335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -543,7 +543,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Get the crystal fix the mirror
+  m_text: 'and here we go
+
+    a mirror'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 811e3f02dce9e4e05aa72eb96e1a307f, type: 2}
   m_sharedMaterial: {fileID: -4171349941933154307, guid: 811e3f02dce9e4e05aa72eb96e1a307f, type: 2}
@@ -1267,7 +1269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelLoader: {fileID: 1799105861}
-  nextLevel: Mirror
+  nextLevel: Credits
 --- !u!4 &1679966636
 Transform:
   m_ObjectHideFlags: 0
