@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
@@ -8,7 +9,13 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ChangeLevel();
+        gameObject.SetActive(false);
+    }
+
+    private void OnEnable()
+    {
+        Debug.Log("Change scene!");
+        //ChangeLevel();
     }
 
     public void ChangeLevel()
