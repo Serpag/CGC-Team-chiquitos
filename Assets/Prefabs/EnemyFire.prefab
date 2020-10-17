@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 4952493520543604101}
   - component: {fileID: 4952493520543604102}
   - component: {fileID: 4952493520543604103}
+  - component: {fileID: 3233467499618026634}
   m_Layer: 10
   m_Name: EnemyFire
-  m_TagString: Enemy
+  m_TagString: EnemyFire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: aaca4c7ca36874859a677d2ef99fc742, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -123,7 +124,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4952493520543604123}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
   m_Name: 
@@ -132,3 +133,16 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: ea454765f8db0468c8b94344c0a138c8, type: 2}
+--- !u!114 &3233467499618026634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4952493520543604123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e63d17a3bd1646cb91841120d1cbf80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5

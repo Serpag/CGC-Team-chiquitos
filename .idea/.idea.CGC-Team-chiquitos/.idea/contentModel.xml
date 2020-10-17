@@ -86,9 +86,15 @@
               <e p="System.Xml.Linq.xml" t="Include" />
               <e p="System.Xml.xml" t="Include" />
             </e>
+            <e p="Generated" t="Include">
+              <e p="AotStubs.cs" t="Include" />
+              <e p="link.xml" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="ButtonClick.cs" t="Include" />
+          <e p="EnemyProjectile.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="LevelLoader.cs" t="Include" />
           <e p="Projectile.cs" t="Include" />
