@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Mirror.unity
     guid: 2d5eb823cd235443c90f54041f69e598
+  - enabled: 1
+    path: Assets/Scenes/Gravity.unity
+    guid: abf8e90bfa52a45b097a46319c6ffe4d
   m_configObjects: {}

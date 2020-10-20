@@ -4,21 +4,27 @@
  
  public class Projectile : MonoBehaviour {
      
-     private Vector2 target;
+     private Vector3 target;
      public float speed;
 
      Vector3 moveDirection;
  
      void Start()
      {
-         target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+         Vector3 mousePos = Input.mousePosition;
+         target = Camera.main.ScreenToWorldPoint(mousePos);
  
          StartCoroutine(destroyAfterTime());
-         
-         moveDirection = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position);
+         moveDirection = (target - transform.position);
           moveDirection.z = 0;       
           moveDirection.Normalize();
-        
+          
+          mousePos.z = 10f; //The distance between the camera and object
+          var objectPos = Camera.main.WorldToScreenPoint(transform.position);
+          mousePos.x = mousePos.x - objectPos.x;
+          mousePos.y = mousePos.y - objectPos.y;
+          var angle = Mathf.Atan2(mousePos.y, mousePos.x) * Mathf.Rad2Deg;
+          transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
      }
  
      private void Update()
@@ -33,8 +39,7 @@
      {
          if (other.gameObject.tag == "Floor" )
          {
-         Destroy(gameObject);
-
+            Destroy(gameObject);
          }
      }
  

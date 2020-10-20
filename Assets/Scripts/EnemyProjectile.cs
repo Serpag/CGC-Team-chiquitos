@@ -3,16 +3,17 @@
 public class EnemyProjectile : MonoBehaviour
 {
     public float speed = 10.0f;
-    private Vector2 target;
-    private Vector2 position;
-    private Camera cam;
+    private Vector3 target;
+    Vector3 moveDirection;
 
     void Start()
     {
         target = GameObject.FindWithTag("Player").transform.position;
-        position = gameObject.transform.position;
-
-        cam = Camera.main;
+        Destroy(gameObject, 5f);
+        
+        moveDirection = (target - transform.position);
+        moveDirection.z = 0;       
+        moveDirection.Normalize();
     }
 
     void Update()
@@ -20,6 +21,7 @@ public class EnemyProjectile : MonoBehaviour
         float step = speed * Time.deltaTime;
 
         // move sprite towards the target location
-        transform.position = Vector2.MoveTowards(transform.position, target, step);
+        //transform.position = Vector2.MoveTowards(transform.position, target, step);
+        transform.position = transform.position + moveDirection * speed* Time.deltaTime;
     }
 }
